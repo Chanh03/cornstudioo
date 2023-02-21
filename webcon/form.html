@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng Nhập</title>
-    <link rel="stylesheet" href="/PS30934_NgoVietAnh_Asm1/login.css">
+    <title>Viết Món Mới</title>
+    <link rel="stylesheet" href="/css/forrm.css">
 </head>
 <body>
     <header style="float: none;">
         <div class="menu">
             <nav>
                 <a style="text-align: left;padding-right: 300px;border: 1px solid rgba(0, 0, 0, 0.239);background-color: rgba(255, 255, 255, 0.56);border-radius: 10px;" href=""><i>Tìm Kiếm</i></a>
-                <a href="/PS30934_NgoVietAnh_Asm1/web.html">Trang Chủ</a>
-                <a style="border: 1px solid rgb(255, 176, 147);border-radius: 10px;background-color: rgb(255, 167, 135);" href="#">Trang Cá Nhân</a>
+                <a href="/web.html">Trang Chủ</a>
+                <a style="border: 1px solid rgb(255, 176, 147);border-radius: 10px;background-color: rgb(255, 167, 135);" href="#">Đăng</a>
             </nav>
             <div class="logo">
                 <a href="https://www.facebook.com/hi.imcorn"><img src="/Picture/imgbin_yellow-nutrient-maize-png (1).png" alt="ảnh lỗi" height="100px" width="100px">
@@ -21,15 +21,38 @@
             </div>
         </div>
     </header>
-    <form action="action_page.php" method="get">
-        <label for="text">Tên Đăng Nhập</label><br>
-        <input type="text" id="name" name="name" placeholder="Tên Đăng Nhập"><br>
-        <label for="text">Mật Khẩu</label><br>
-        <input type="password" id="password" placeholder="Mật Khẩu"><br>
-        Đồng ý với các <a href="">điều khoản</a>
-        <input type="checkbox" name="checkbox" id="checkbox"><br>
-        <input type="submit" value="Đăng Nhập">
+    <section>
+        <form action="acctio_page.php" method="get">
+        <div class="a">
+            <label for="text">Tên món : </label>
+        </div>
+        <div class="name">
+            <input type="text" name="name" id="name" placeholder="Tên món: Món canh bí ngon nhất nhà mình">
+        </div>
+        <div class="b">
+            <label for="text">Nguyên liệu : </label>
+        </div>
+        <div class="ingredient">
+            <input type="text" name="ingredient" id="ingredient" placeholder="Nguyên liệu :">
+        </div>
+        <div class="c">
+            <label for="text">Các bước : </label>
+        </div>
+        <div class="steps">
+            <input type="text" name="steps" id="steps" placeholder="Bước 1 : ">
+        </div>
+        <div class="d">
+            <label for="text">Thêm Hình Ảnh</label>
+        </div>
+        <div class="img">
+            <a href=""><img width="80" style="margin-left: 180px;margin-top: 10px;" src="https://static.thenounproject.com/png/1231023-200.png" alt=""></a>
+            <a href=""><img width="80" style="margin-left: 180px;margin-top: 10px;" src="https://static.thenounproject.com/png/1231023-200.png" alt=""></a>
+        </div>
     </form>
+    </section>
+    <div class="post">
+        <a href="#">Post</a>
+    </div>
     <footer>
         <div class="about">
             <h3>Giới Thiệu</h3>
