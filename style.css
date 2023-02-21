@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+.topbanner img{
+    max-width: 5%;
+    opacity: 0%;
+    /*Test thuuuiiii :(((((((((((((((((((((*/
+}
+.menu{
+    height: 70px;
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+}
+.menu .logo{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+.menu nav{
+    position: fixed;
+    clear: both;
+    right: 10px;
+}
+.menu nav a{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+.menu nav a:hover{
+    background-color: rgba(255, 255, 255, 0.361);
+    padding: 15px;
+}
+.logo:hover{
+    zoom: 110%;
+}
+.banner{
+    margin-top: 110px;
+    text-align: center;
+
+}
+.banner img{
+    max-width: 100%;
+}
+.select select{
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 10px;
+    padding:10px;
+    border-radius: 7px;    
+}
+.select select:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.697);
+}
+.banner h3{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #d8ef55;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #b1bf61;
+    cursor: pointer;
+}
+.dssanpham .sanpham .ten{
+    float:left;
+    font-family:monospace;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 330px;
+    text-align: center;
+}
+.dssanpham .sanpham .ten img{
+    max-width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dssanpham .sanpham .ten p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dssanpham .sanpham .ten:hover{
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.639);
+    background: linear-gradient(to left,#e5a47891,#f0d4828f);
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    cursor: pointer;
+}
+.dssanpham .sanpham .ten b a{
+    text-decoration: none;
+    color: coral;
+}
+.dssanpham .sanpham .ten b a:hover{
+    background-color: rgba(128, 128, 128, 0.375);
+    padding: 3px 10px;
+}
+.pagelist ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.pagelist ul li{
+    font-weight: bold;
+    border: 1px solid rgba(255, 127, 80, 0.344);
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.pagelist ul li:hover{
+    background-color: rgba(128, 128, 128, 0.465);
+    cursor: pointer;
+}
+footer{
+    display: block;
+    width: 100%;
+    background: #f5a30b6c;
+}
+footer .about{
+    padding: 20px;
+}
+footer .about p{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+footer .about p i{
+    font-weight: bold;
+}
+.author{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.author:hover{
+    text-transform: uppercase;
+}

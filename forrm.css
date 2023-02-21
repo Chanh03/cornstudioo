@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+.topbanner img{
+    max-width: 5%;
+    opacity: 0%;
+    /*Test thuuuiiii :(((((((((((((((((((((*/
+}
+.menu{
+    height: 70px;
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+}
+.menu .logo{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+.menu nav{
+    position: fixed;
+    clear: both;
+    right: 10px;
+}
+.menu nav a{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+.menu nav a:hover{
+    background-color: rgba(255, 255, 255, 0.361);
+    padding: 15px;
+}
+.logo:hover{
+    zoom: 110%;
+}
+section{
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+section .ingredient h3{
+    margin-top: 10px;
+}
+.a label[for=text]{
+    font-size: 25px;
+}
+.b label[for=text]{
+    font-size: 25px;
+}
+.c label[for=text]{
+    font-size: 25px;
+}
+.d label[for=text]{
+    font-size: 25px;
+}
+.name>input[type=text]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.283);
+    background-color: rgba(245, 245, 245, 0.379);
+    border-radius: 10px;
+}
+.ingredient>input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.283);
+    background-color: rgba(245, 245, 245, 0.379);
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+.steps>input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.283);
+    background-color: rgba(245, 245, 245, 0.379);
+    border-radius: 10px;
+    padding-bottom: 160px;
+}
+.post{
+    text-align: center;
+    padding: 50px;
+}
+.post a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+}
+.post a:hover{
+    border: 1px solid rgba(128, 128, 128, 0);
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+    font-weight: bolder;
+    color: white;
+}
+.pagelist ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.pagelist ul li{
+    font-weight: bold;
+    border: 1px solid rgba(255, 127, 80, 0.344);
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.pagelist ul li:hover{
+    background-color: rgba(128, 128, 128, 0.465);
+    cursor: pointer;
+}
+footer{
+    display: block;
+    width: 100%;
+    background: #f5a30b6c;
+}
+footer .about{
+    padding: 20px;
+}
+footer .about p{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+footer .about p i{
+    font-weight: bold;
+}
+.author{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.author:hover{
+    text-transform: uppercase;
+}

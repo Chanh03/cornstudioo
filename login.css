@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+.topbanner img{
+    max-width: 5%;
+    opacity: 0%;
+    /*Test thuuuiiii :(((((((((((((((((((((*/
+}
+.menu{
+    height: 70px;
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+}
+.menu .logo{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+.menu nav{
+    position: fixed;
+    clear: both;
+    right: 10px;
+}
+.menu nav a{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+.menu nav a:hover{
+    background-color: rgba(255, 255, 255, 0.361);
+    padding: 15px;
+}
+.logo:hover{
+    zoom: 110%;
+}
+form{
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+label[for=text]{
+    color: rgb(255, 181, 154);
+}
+input[type=submit]{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.392);
+    border-radius: 10px;
+    margin-top: 30px;
+} 
+input[type=submit]:hover {
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+}
+input[type=text]{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.392);
+    border-radius: 10px;
+} 
+input[type=password]{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.392);
+    border-radius: 10px;
+}
+.pagelist ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.pagelist ul li{
+    font-weight: bold;
+    border: 1px solid rgba(255, 127, 80, 0.344);
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.pagelist ul li:hover{
+    background-color: rgba(128, 128, 128, 0.465);
+    cursor: pointer;
+}
+footer{
+    display: block;
+    width: 100%;
+    background: #f5a30b6c;
+}
+footer .about{
+    padding: 20px;
+}
+footer .about p{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+footer .about p i{
+    font-weight: bold;
+}
+.author{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.author:hover{
+    text-transform: uppercase;
+}

@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+.topbanner img{
+    max-width: 5%;
+    opacity: 0%;
+    /*Test thuuuiiii :(((((((((((((((((((((*/
+}
+.menu{
+    height: 70px;
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+}
+.menu .logo{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+.menu nav{
+    position: fixed;
+    clear: both;
+    right: 10px;
+}
+.menu nav a{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+.menu nav a:hover{
+    background-color: rgba(255, 255, 255, 0.361);
+    padding: 15px;
+}
+.logo:hover{
+    zoom: 110%;
+}
+.banner{
+    margin-top: 110px;
+    text-align: center;
+
+}
+.banner img{
+    max-width: 100%;
+}
+.banner h3{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #d8ef55;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #b1bf61;
+    cursor: pointer;
+}
+.food {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.food p{
+    background: linear-gradient(to left,#f7ccaf,#ffe69d);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.425);
+    font-family:sans-serif;
+    color: coral;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.dssanpham .sanpham .ten{
+    font-family:monospace;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.411);
+    padding: 10px;
+    margin: 10px;
+    width: 97%;
+}
+.dssanpham .sanpham .ten img{
+    max-width: 32%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.pagelist ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.pagelist ul li{
+    font-weight: bold;
+    border: 1px solid rgba(255, 127, 80, 0.344);
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.pagelist ul li:hover{
+    background-color: rgba(128, 128, 128, 0.465);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: #f5a30b6c;
+}
+footer .about{
+    padding: 20px;
+}
+footer .about p{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+footer .about p i{
+    font-weight: bold;
+}
+.author{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.author:hover{
+    text-transform: uppercase;
+}
